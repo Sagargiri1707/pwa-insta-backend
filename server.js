@@ -6,7 +6,7 @@ app.use(express.json())
 var cors = require("cors");
 app.use(cors());
 
-mongoose.connect(`mongodb+srv://sagar:sagar@cluster0.56meo.mongodb.net/sagar?retryWrites=true&w=majority`, {
+mongoose.connect(``, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   });
